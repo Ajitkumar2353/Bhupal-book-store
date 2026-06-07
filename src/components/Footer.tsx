@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="p-2 bg-brand-500 rounded-xl">
+              <div className="p-2 bg-red-600 rounded-xl">
                 <BookOpen className="w-6 h-6 text-white" />
               </div>
               <h2 className="font-serif text-2xl font-bold text-white">Bhupal Book Store</h2>
@@ -30,11 +30,11 @@ export default function Footer() {
             <h3 className="text-white font-bold mb-6 tracking-wide">Contact Details</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
-                <MapPin className="w-5 h-5 text-brand-500 shrink-0 mt-0.5" />
+                <MapPin className="w-5 h-5 text-yellow-400 shrink-0 mt-0.5" />
                 <span>Near Maa Samelaswari Mandi,<br />Mainroad, Laikera,<br />Jharsuguda, Odisha 768215</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
-                <Phone className="w-5 h-5 text-brand-500 shrink-0" />
+                <Phone className="w-5 h-5 text-yellow-400 shrink-0" />
                 <span>Visit store for details</span>
               </li>
             </ul>
@@ -46,7 +46,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex flex-col gap-1 text-gray-400">
                 <span className="flex items-center gap-2 text-white font-medium">
-                  <Clock className="w-4 h-4 text-brand-500" />
+                  <Clock className="w-4 h-4 text-green-400" />
                   Monday - Saturday
                 </span>
                 <span className="pl-6">8:30 AM - 2:00 PM</span>
@@ -54,7 +54,7 @@ export default function Footer() {
               </li>
               <li className="flex flex-col gap-1 text-gray-400">
                 <span className="flex items-center gap-2 text-white font-medium">
-                  <Clock className="w-4 h-4 text-brand-500" />
+                  <Clock className="w-4 h-4 text-green-400" />
                   Sunday
                 </span>
                 <span className="pl-6">9:00 AM - 2:00 PM</span>

@@ -8,14 +8,14 @@ export default function Header() {
           
           {/* Logo Section */}
           <div className="flex items-center gap-3">
-            <div className="p-2 bg-brand-50 rounded-xl">
-              <BookOpen className="w-8 h-8 text-brand-600" />
+            <div className="p-2 bg-red-50 rounded-xl">
+              <BookOpen className="w-8 h-8 text-red-600" />
             </div>
             <div>
-              <h1 className="font-serif text-2xl font-bold text-gray-900 leading-tight">
-                Bhupal <span className="text-brand-600">Book Store</span>
+              <h1 className="font-serif text-2xl font-bold text-green-700 leading-tight">
+                Bhupal <span className="text-red-600">Book Store</span>
               </h1>
-              <p className="text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <p className="text-xs font-medium text-yellow-600 uppercase tracking-wider">
                 Wholesaler & Retailer
               </p>
             </div>
@@ -31,7 +31,7 @@ export default function Header() {
             </div>
             <a 
               href="#contact" 
-              className="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-full font-medium transition-colors text-sm"
+              className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-5 py-2.5 rounded-full font-medium transition-colors text-sm shadow-md"
             >
               <Phone className="w-4 h-4" />
               <span>Contact Us</span>
