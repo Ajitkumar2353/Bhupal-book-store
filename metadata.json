@@ -1,0 +1,6 @@
+{
+  "name": "Bhopal Book Store",
+  "description": "Landing page for Bhupal Book Store in Laikera.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
